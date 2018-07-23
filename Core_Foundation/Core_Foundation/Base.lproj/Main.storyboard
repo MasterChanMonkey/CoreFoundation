@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnH-vr-27j">
+                                <rect key="frame" x="30" y="35" width="315" height="48"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Runtime"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q3I-24-Iaf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9X-nW-5QM">
+                                <rect key="frame" x="30" y="161.5" width="315" height="48"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="群体数据类型 (数组、集合等)"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oeW-7P-SeJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diZ-Ky-vNj">
+                                <rect key="frame" x="30" y="224.5" width="315" height="48.5"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="程序包"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9O-Lj-S24"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xci-FO-lkl">
+                                <rect key="frame" x="29.5" y="288" width="315" height="48"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="字符串管理"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonE:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xyw-iZ-lnL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpw-O8-y3c">
+                                <rect key="frame" x="29.5" y="351" width="315" height="48"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="日期和时间管理"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iKf-os-gBp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITC-Si-k3b">
+                                <rect key="frame" x="29.5" y="414" width="315" height="48.5"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="原始数据块管理"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ButtonG:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXY-Mg-dbZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OK0-M4-xIq">
+                                <rect key="frame" x="29.5" y="477.5" width="315" height="48"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="偏好管理"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonH:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PvA-Zc-hjm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjl-WE-Spl">
+                                <rect key="frame" x="29.5" y="540.5" width="315" height="48.5"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="URL及数据流操作"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgN-wt-o9V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMC-Tq-a4h">
+                                <rect key="frame" x="29.5" y="604" width="315" height="48"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="端口和soket通讯"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonJ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yjZ-bo-Udf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUQ-rB-DFo">
+                                <rect key="frame" x="29.5" y="98" width="315" height="48.5"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="线程和RunLoop"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WmB-RT-fAl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="diZ-Ky-vNj" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="5Nq-kw-B3y"/>
+                            <constraint firstItem="OK0-M4-xIq" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="6FT-tU-s8i"/>
+                            <constraint firstItem="eUQ-rB-DFo" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="9sO-Cy-QeM"/>
+                            <constraint firstItem="diZ-Ky-vNj" firstAttribute="top" secondItem="f9X-nW-5QM" secondAttribute="bottom" constant="15" id="ARZ-VD-x2T"/>
+                            <constraint firstItem="Mpw-O8-y3c" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="BM0-sq-nmq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nMC-Tq-a4h" secondAttribute="bottom" constant="15" id="Bcj-dy-Qp5"/>
+                            <constraint firstItem="eUQ-rB-DFo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C73-JD-9Ee"/>
+                            <constraint firstItem="Xci-FO-lkl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DrU-G7-rUt"/>
+                            <constraint firstItem="Mpw-O8-y3c" firstAttribute="top" secondItem="Xci-FO-lkl" secondAttribute="bottom" constant="15" id="KQl-CG-C5b"/>
+                            <constraint firstItem="Mpw-O8-y3c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LIZ-eo-CZD"/>
+                            <constraint firstItem="OK0-M4-xIq" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="M5M-Fu-jnm"/>
+                            <constraint firstItem="QnH-vr-27j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="NQ3-Ob-qUS"/>
+                            <constraint firstItem="Xci-FO-lkl" firstAttribute="top" secondItem="diZ-Ky-vNj" secondAttribute="bottom" constant="15" id="NUv-PY-7zS"/>
+                            <constraint firstItem="OK0-M4-xIq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NfN-Tc-Lop"/>
+                            <constraint firstItem="ITC-Si-k3b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q9J-cj-rWC"/>
+                            <constraint firstItem="wjl-WE-Spl" firstAttribute="top" secondItem="OK0-M4-xIq" secondAttribute="bottom" constant="15" id="R9D-xU-xOk"/>
+                            <constraint firstItem="f9X-nW-5QM" firstAttribute="top" secondItem="eUQ-rB-DFo" secondAttribute="bottom" constant="15" id="TlS-rl-nUf"/>
+                            <constraint firstItem="ITC-Si-k3b" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="Uj2-er-wbd"/>
+                            <constraint firstItem="nMC-Tq-a4h" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="WJy-S5-jvJ"/>
+                            <constraint firstItem="Xci-FO-lkl" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="atG-Rd-HlJ"/>
+                            <constraint firstItem="ITC-Si-k3b" firstAttribute="top" secondItem="Mpw-O8-y3c" secondAttribute="bottom" constant="15" id="cA1-22-NOz"/>
+                            <constraint firstItem="wjl-WE-Spl" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="cAe-3L-EDA"/>
+                            <constraint firstItem="wjl-WE-Spl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cOg-yV-3Ef"/>
+                            <constraint firstItem="nMC-Tq-a4h" firstAttribute="top" secondItem="wjl-WE-Spl" secondAttribute="bottom" constant="15" id="cW2-xT-oo1"/>
+                            <constraint firstItem="f9X-nW-5QM" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="e5M-3l-a73"/>
+                            <constraint firstItem="eUQ-rB-DFo" firstAttribute="top" secondItem="QnH-vr-27j" secondAttribute="bottom" constant="15" id="eEw-Cw-9KA"/>
+                            <constraint firstItem="nMC-Tq-a4h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fTY-JJ-nGK"/>
+                            <constraint firstItem="nMC-Tq-a4h" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="gVP-N8-rMO"/>
+                            <constraint firstItem="OK0-M4-xIq" firstAttribute="top" secondItem="ITC-Si-k3b" secondAttribute="bottom" constant="15" id="grM-DR-44A"/>
+                            <constraint firstItem="diZ-Ky-vNj" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="hG1-pk-svW"/>
+                            <constraint firstItem="ITC-Si-k3b" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="izk-c9-2N0"/>
+                            <constraint firstItem="f9X-nW-5QM" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="mGh-Xn-rUD"/>
+                            <constraint firstItem="Mpw-O8-y3c" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="mVG-ii-3b4"/>
+                            <constraint firstItem="QnH-vr-27j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="nPW-ek-cfU"/>
+                            <constraint firstAttribute="trailing" secondItem="QnH-vr-27j" secondAttribute="trailing" constant="30" id="pLU-LY-JEx"/>
+                            <constraint firstItem="f9X-nW-5QM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pdh-fq-zbn"/>
+                            <constraint firstItem="diZ-Ky-vNj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sfb-fQ-VVu"/>
+                            <constraint firstItem="wjl-WE-Spl" firstAttribute="height" secondItem="QnH-vr-27j" secondAttribute="height" id="tJm-1Z-FgW"/>
+                            <constraint firstItem="eUQ-rB-DFo" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="tTn-gB-5vM"/>
+                            <constraint firstItem="Xci-FO-lkl" firstAttribute="width" secondItem="QnH-vr-27j" secondAttribute="width" id="wMw-Sk-99y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
